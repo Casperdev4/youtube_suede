@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(powershell -command \"Get-Item ''c:\\\\Users\\\\Webpr\\\\Desktop\\\\avis-market\\\\favicon.ico'' | Select-Object Name, Length\")",
+      "Bash(du:*)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "Bash(grep -c 'hreflang=\"\"x-default\"\"' *.html)",
+      "Bash(grep -c 'Bruges' *.html)",
+      "Bash(grep -c 'Tournai' *.html)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/YouTube_2/achat-abonne.ca/**)",
+      "Bash(done)",
+      "Bash(grep -rn \"youlikes.fr\" *.html)",
+      "Bash(grep -c \"youlikes.fr\" *.html)",
+      "Bash(grep \"hreflang\" *.html)",
+      "Bash(grep -r \"support@\" *.html)",
+      "Read(//c/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/YouTube_2/youlikes.fr//**)",
+      "Read(//c/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/YouTube_2/youlikes.fr/**)",
+      "WebFetch(domain:casperdev4.github.io)",
+      "WebFetch(domain:youlikes.fr)",
+      "Read(//c/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Mes_Sites\\E-Commerce_\\YouTube_2\\youlikes.fr",
+      "C:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Mes_Sites\\E-Commerce_\\Google_7\\avis-market.be",
+      "C:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Mes_Sites\\E-Commerce_\\Google_7\\avis-markt.de",
+      "C:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Mes_Sites\\E-Commerce_\\Google_7\\review-market.fr",
+      "C:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Mes_Sites\\E-Commerce_\\Google_7\\review-market.uk"
+    ]
+  }
+}

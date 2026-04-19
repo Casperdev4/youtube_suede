@@ -30,84 +30,133 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Kan jag v\u00e4lja inneh\u00e5llet i kommentarerna?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolut. Varje kommentar \u00e4r helt skr\u00e4ddarsydd. Du skickar oss de \u00f6nskade meddelandena och vi publicerar dem under din video. Du beh\u00e5ller full kontroll \u00f6ver det publicerade inneh\u00e5llet. Tj\u00e4nsten \u00e4r tillg\u00e4nglig f\u00f6r YouTube-skapare i Sverige."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Kan jag välja innehållet i kommentarerna?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolut. Varje kommentar är helt skräddarsydd. Du skickar oss de önskade meddelandena och vi publicerar dem under din video. Du behåller full kontroll över det publicerade innehållet. Tjänsten är tillgänglig för YouTube-skapare i Sverige."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Hur snabbt visas kommentarerna?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Leveransen påbörjas inom 12 till 24 timmar efter din beställning. Den totala tiden varierar beroende på beställd mängd, från 12 timmar för 5 kommentarer upp till 6 dagar för 100 kommentarer."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Finns det någon risk för min YouTube-kanal?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Inte alls. Våra kommentarer kommer från verifierade och aktiva konton. Vår metod är naturlig och säker för din YouTube-kanal. Inga påföljder är möjliga."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Är kommentarerna permanenta?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Ja, kommentarerna förblir permanent synliga under din video. Eftersom de publiceras av autentiska och aktiva konton är deras beståndighet säkerställd över tid."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Service",
+                "name": "YouTube-kommentarer i Sverige",
+                "description": "Få skräddarsydda YouTube-kommentarer som är 100% autentiska i Sverige. Kommentarer av högsta kvalitet för dina videor, snabb och säker leverans. Från 47 € för 100 kommentarer.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Kopa-Prenumeranter.com"
+                },
+                "image": "https://kopa-prenumeranter.com/logo.png",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "EUR",
+                    "lowPrice": "47",
+                    "highPrice": "245",
+                    "offerCount": "3",
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {
-                "@type": "Question",
-                "name": "Hur snabbt visas kommentarerna?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Leveransen p\u00e5b\u00f6rjas inom 12 till 24 timmar efter din best\u00e4llning. Den totala tiden varierar beroende p\u00e5 best\u00e4lld m\u00e4ngd, fr\u00e5n 12 timmar f\u00f6r 5 kommentarer upp till 6 dagar f\u00f6r 100 kommentarer."
+                "@type": "Organization",
+                "name": "Kopa Prenumeranter YouTube",
+                "url": "https://kopa-prenumeranter.com",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Vara tjanster",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "kopa kommentarer youtube",
+                                "url": "https://kopa-prenumeranter.com/kopa-kommentarer-youtube.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Finns det n\u00e5gon risk f\u00f6r min YouTube-kanal?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Inte alls. V\u00e5ra kommentarer kommer fr\u00e5n verifierade och aktiva konton. V\u00e5r metod \u00e4r naturlig och s\u00e4ker f\u00f6r din YouTube-kanal. Inga p\u00e5f\u00f6ljder \u00e4r m\u00f6jliga."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "\u00c4r kommentarerna permanenta?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Ja, kommentarerna f\u00f6rblir permanent synliga under din video. Eftersom de publiceras av autentiska och aktiva konton \u00e4r deras best\u00e5ndighet s\u00e4kerst\u00e4lld \u00f6ver tid."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Kommentarer",
+                            "description": "Pack 100 Kommentarer.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "47",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "300 Kommentarer",
+                            "description": "Pack 300 Kommentarer.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "98",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "500 Kommentarer",
+                            "description": "Pack 500 Kommentarer.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "245",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "YouTube-kommentarer i Sverige",
-        "description": "F\u00e5 skr\u00e4ddarsydda YouTube-kommentarer som \u00e4r 100% autentiska i Sverige. Kommentarer av h\u00f6gsta kvalitet f\u00f6r dina videor, snabb och s\u00e4ker leverans. Fr\u00e5n 47 € f\u00f6r 100 kommentarer.",
-        "brand": {
-            "@type": "Brand",
-            "name": "Kopa-Prenumeranter.com"
-        },
-        "image": "https://kopa-prenumeranter.com/logo.png",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "EUR",
-            "lowPrice": "47",
-            "highPrice": "245",
-            "offerCount": "3",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Kopa Prenumeranter YouTube",
-        "url": "https://kopa-prenumeranter.com",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Vara tjanster",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Kopa Kommentarer YouTube",
-                        "url": "https://kopa-prenumeranter.com/kopa-kommentarer-youtube.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>
